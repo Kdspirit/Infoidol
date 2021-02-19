@@ -1,0 +1,7 @@
+.bodyBanner img{
+    height: 320px;
+    width: 95%;
+    /* margin-left: 240px; */
+    border-radius: 5px;
+    display: flex;
+}

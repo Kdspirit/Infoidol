@@ -1,0 +1,36 @@
+.AlbumContainer{
+    border-top: 2px solid #f5dbdb;
+    border-bottom: 2px solid #f5dbdb;
+    padding: 5px 0;
+    width: 60%;
+    margin-left: 15%;
+}
+.Album-elems{
+    display: flex;
+    padding: 5px 0;
+    justify-content: space-around;
+    overflow: hidden;
+}    
+.Album-Img img{
+    border-radius: 10px;
+    width: 130px;
+    height: 110px;
+}
+h3{
+    color:#727272;
+    margin: 5px 0 5px 20px ;
+}
+.Album-text{
+    height: 10px;
+}
+.Album-text p{
+    
+    font-size:10px;
+}
+a{
+    font-size: 13px;
+}
+a:hover{
+    color:crimson;
+}
+

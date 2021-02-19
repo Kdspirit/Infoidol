@@ -1,0 +1,9 @@
+.reels_img{
+    margin-left: -346px;
+    /* margin-top: 10px; */
+}
+.reels_img img{
+    height: 580px;
+    width: 400px;
+    margin-right: 66px;
+}

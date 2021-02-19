@@ -1,0 +1,41 @@
+.Tags-Bar{
+    display: inline-flex;
+}
+.TagBar-Elems img{
+    width: 50%;
+    height: 100%;
+    border-radius: 40px;
+}  
+.TagBar-Elems {
+    display: flex;
+    height: 35px;
+    width: 90px;
+    margin: 15px;
+}
+.TagBar-Elems:nth-child(1){
+    /* margin-left: 253px; */
+}
+.TagBar-Elems button{
+    display: flex;
+    border-radius: 50px;
+    border: 1px solid gray;
+
+}
+.TagBar-Elems button:hover{
+    background-color: skyblue;
+    cursor: pointer;
+}
+.TagBar-Elems button:hover span{
+    font-weight: bold;
+    transform: scale(1.1);
+} 
+.TagBar-Elems button span{
+    font-size: small;
+    font-weight: 300;
+    padding-top: 8px;
+}
+
+.TagBar-Elems button:hover img{
+    transform: scale(1.1);
+}
+

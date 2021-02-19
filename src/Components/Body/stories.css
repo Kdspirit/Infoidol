@@ -1,0 +1,24 @@
+.stories-block img{
+    width: 60%;
+    height: 85px;
+    border: 3px dashed rgb(22, 157, 211);
+    border-radius: 50%;
+}
+.stories-block{
+    display: flex;
+    background-color: #dfe1ec;
+    height: 120px;
+    width: 60%;
+    align-items: center;
+    border-radius: 10px;
+    margin-left: 15%;
+}
+.stories{ 
+    display: flex;
+    justify-content: space-around;
+
+}
+.stories .stories-text{
+    margin-left: -150px;
+    margin-top: 84px;
+}

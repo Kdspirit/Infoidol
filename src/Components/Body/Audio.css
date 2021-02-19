@@ -1,0 +1,50 @@
+.Audio_container{
+    /* background-color: tomato; */
+    /* display: flex; */
+    margin-left: 15%;
+    border-top:1px solid  #bdb6b6;
+    border-bottom:1px solid  #bdb6b6;
+    padding: 10px;
+    width: 81%;
+}
+.Audio_elems{
+    display: flex;
+}
+.Audio_Img img{
+    width: 54px;
+    height: 48px;
+    border-radius: 10px;
+    /* margin-left: 73px; */
+}
+.Audio_Img{
+    margin-top: 10px;
+    display:flex;
+    margin-left: 13px;
+}
+.Audio_viewall h3{
+    margin-left:-5px ;
+    color:#727272; 
+}
+.Audio_container button{
+    margin-left: 1030px;
+    width: 87px;
+    border-radius: 10px;
+    background-color: white;
+    color:orange;
+    border: 1px solid orange;
+}
+.Audio_viewall{
+    display: flex;
+}
+.description{
+    display:flex;
+}
+.duration{
+    margin:15px 0px 0px 69px;
+}
+.musicdetail{
+    margin-left: 10px;
+}
+.musicdetail p{
+    font-size: 13px;
+}

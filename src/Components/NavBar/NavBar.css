@@ -1,0 +1,66 @@
+
+
+/* Nav Bar Starts  */
+.Container{
+    width: 100%;
+    border-bottom: 1px solid #f0f0f5;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+.wrapper{
+    display: flex;
+    height: 100%;
+    width: 95%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+/* Nav Bar Ends  */
+
+/* LogoBlock starts */
+.LogoBlock{
+    width: 10%;
+    height: 60px;
+    box-shadow: 0 1px #f0f0f5;
+    justify-content: space-between;
+}
+.LogoBlock img{
+    height: 60px;
+    width: 80px;
+    border-radius: 0;
+    
+}
+/* LogoBlock Ends */
+
+/* searchBar starts */
+
+.searchBar span{
+    position: relative;
+}
+.searchBar figure {
+    display: flex;
+    position: absolute;
+    margin: 8px 15px;
+}
+input[type="search"] {
+    height: 100%;
+    display: flex;
+    padding: 10px 170px;
+    align-content: center;
+    border-radius: 100px;
+    border: 0.1px solid grey;
+}
+/* searchBar Ends */
+
+/* Right Block starts */
+
+.rightBlock span{
+    height: 100%;
+    padding: 20px;
+    color: gray;
+}
+.rightBlock a span:hover{
+    color: chocolate;
+}
+
