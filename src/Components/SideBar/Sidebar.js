@@ -14,7 +14,7 @@ const Sidebar = () => {
         <div className="sidebar">
             <div className="sidebar-elements">
                 <span className="sidebar-icon"><HomeIcon/></span>
-                <a href="#">ssssss</a>
+                <a href="#">Home</a>
             </div>
             <div className="sidebar-elements">
                 <span className="sidebar-icon"><YouTubeIcon/></span>
