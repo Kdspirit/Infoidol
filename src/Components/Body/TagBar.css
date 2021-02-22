@@ -39,3 +39,9 @@
     transform: scale(1.1);
 }
 
+@media only screen and (max-width: 600px)
+{
+    .Tags-Bar{
+        display: none;
+    }
+}
