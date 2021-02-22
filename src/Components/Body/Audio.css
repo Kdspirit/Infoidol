@@ -48,3 +48,10 @@
 .musicdetail p{
     font-size: 13px;
 }
+
+@media only screen and(max-width: 600px){
+    .Audio_container{
+        border:solid red;
+        margin-left: 2%
+    }
+}

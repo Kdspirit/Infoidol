@@ -57,12 +57,13 @@
 }
 @media only screen and (max-width:600px){
     .CT_container{
-        margin-left: 115vw;
-        border:solid red;
+        margin-left: 97vw;
+        
     }
     .CT_container h3{
         color: #727272;
-        margin-left: -406px;
+        /* margin-top: 2vh; */
+        margin-left: -397px;
     }
     .CT_container button{
         color: orange;
@@ -70,12 +71,12 @@
         padding: 0px 17px;
         background-color: white;
         border: 1px solid orange;
-        margin-left: 137px;
+        margin-left: 191px;
     }
     .content h3{
         position: absolute;
         bottom: 42px;
-        left: 112px;
+        left: 103px;
         color:white;
         width: 100%;
         padding: 20px;
@@ -85,7 +86,9 @@
         position: absolute;
         color:white;
         bottom: 54px;
-        left: 4px;
+        left: 12px;
     }
-    
+  .CT_Img img{
+      margin-left: 2vw;
+  }
 }
