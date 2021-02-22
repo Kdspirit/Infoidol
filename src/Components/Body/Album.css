@@ -16,7 +16,7 @@
     width: 130px;
     height: 110px;
 }
-h3{
+.AlbumContainer h3{
     color:#727272;
     margin: 5px 0 5px 20px ;
 }
@@ -34,3 +34,32 @@ a:hover{
     color:crimson;
 }
 
+@media only screen and (max-width:600px){
+.AlbumContainer
+{
+    margin-left: -1vw;
+}
+.AlbumContainer h3{
+    color:#727272;
+    margin: 5px 0 5px 9px ;
+}
+
+.Album-Img img{
+    width:36vw;
+    height: 15vh;
+    margin-left: 2vw;
+}
+.Album-text p{
+    
+    font-size:10px;
+    margin-left: 3vw;
+}
+a{
+    font-size: 13px;
+    margin-left: 3vw;
+}
+a:hover{
+    color:crimson;
+}
+
+};

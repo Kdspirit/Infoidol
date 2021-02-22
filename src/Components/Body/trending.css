@@ -21,11 +21,12 @@
 }
 @media only screen and (max-width:600px){
     .trending_container{
-        border-top: 2px solid #f5dbdb;
+        /* border-top: 2px solid #f5dbdb;
         border-bottom: 2px solid #f5dbdb;
         padding: 5px 0;
         width: 100%;
-        margin-left: 0%;
+        margin-left: 0%; */
+        margin-left: -1vw;
     }
     .trending_elems{
         display:flex;
@@ -39,7 +40,7 @@
         height: 101%;
     }
     .trending_container h3{
-        margin-left: 1px;
+        margin-left: 2px;
     }
     
 }
