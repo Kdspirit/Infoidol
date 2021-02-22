@@ -55,3 +55,37 @@
     width: 27px;
     height: 27px;
 }
+@media only screen and (max-width:600px){
+    .CT_container{
+        margin-left: 115vw;
+        border:solid red;
+    }
+    .CT_container h3{
+        color: #727272;
+        margin-left: -406px;
+    }
+    .CT_container button{
+        color: orange;
+        border-radius: 10px;
+        padding: 0px 17px;
+        background-color: white;
+        border: 1px solid orange;
+        margin-left: 137px;
+    }
+    .content h3{
+        position: absolute;
+        bottom: 42px;
+        left: 112px;
+        color:white;
+        width: 100%;
+        padding: 20px;
+    }
+    .content p{
+        font-size: 10px;
+        position: absolute;
+        color:white;
+        bottom: 54px;
+        left: 4px;
+    }
+    
+}

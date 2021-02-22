@@ -31,7 +31,7 @@ const Audio = () => {
                 }    
             </div>
 
-            <div className="Audio_elems">
+            <div className="Audio_elems ">
                 {
                     Array.map((e) => {
                         return(
