@@ -64,3 +64,46 @@ input[type="search"] {
     color: chocolate;
 }
 
+@media only screen and (max-width: 600px){
+    .wrapper{
+        width: 100%;
+        /* border: solid 1px gray; */
+
+    }
+.LogoBlock{
+    /* border: solid 1px red; */
+    width: 25%;
+    height: 15vh;
+    margin-right: 2rem;
+}
+.LogoBlock img{
+    /* border: solid 1px red; */
+    height: 100%;
+    width: 100%;
+
+}
+
+.searchBar {
+display: none;
+}
+
+.rightBlock{
+    /* border: solid 3px green; */
+    display: flex;
+    width: 75%;
+}
+.rightBlock a{
+    /* border: solid 1px red; */
+    width: 13vw;
+}
+.rightBlock .profile{
+    display: flex;
+}
+.rightBlock .profile-name{
+    margin-left: -5vw;
+
+}
+.profile-icon{
+    margin-top: -3vh
+}
+}

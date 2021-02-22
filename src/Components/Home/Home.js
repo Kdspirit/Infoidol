@@ -12,7 +12,6 @@ import NavBar from '../../Components/NavBar/NavBar';
 import Sidebar from '../../Components/SideBar/Sidebar';
 const Home = () => {
     return (
-       
     <div className="App">
       <NavBar/>
       <div className="bannerSideBar">
