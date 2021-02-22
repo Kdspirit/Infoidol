@@ -6,7 +6,7 @@ import HeadsetIcon from '@material-ui/icons/Headset';
 import ListAltIcon from '@material-ui/icons/ListAlt';
 import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder';
 import PersonAddIcon from '@material-ui/icons/PersonAdd';
-
+import {Link} from 'react-router-dom';
 const Sidebar = () => {
 
     
@@ -18,7 +18,8 @@ const Sidebar = () => {
             </div>
             <div className="sidebar-elements">
                 <span className="sidebar-icon"><YouTubeIcon/></span>
-                <a href="#">Videos</a>
+                {/* <a href="#">Videos</a> */}
+                <Link to='/videoPage' >Videos </Link>
             </div>
             <div className="sidebar-elements">
                 <span className="sidebar-icon"><HeadsetIcon/></span>
