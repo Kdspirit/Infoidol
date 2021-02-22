@@ -7,3 +7,8 @@
     width: 400px;
     margin-right: 66px;
 }
+@media only screen and (max-width: 600px){
+    .reels_container{
+        display: none;
+    }
+}

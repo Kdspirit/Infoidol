@@ -10,9 +10,7 @@
     padding: 5px 0px 10px 0;
     justify-content: space-evenly;
 }
-.trending-img{
-    /* margin-left: 10px; */
-}
+
 .trending-img img{
     border-radius: 10px;
     width: 95%;
@@ -20,4 +18,28 @@
 }
 .trending_container h3{
     margin-left: 22px;
+}
+@media only screen and (max-width:600px){
+    .trending_container{
+        border-top: 2px solid #f5dbdb;
+        border-bottom: 2px solid #f5dbdb;
+        padding: 5px 0;
+        width: 100%;
+        margin-left: 0%;
+    }
+    .trending_elems{
+        display:flex;
+        padding: 5px 61px 10px 23px;
+        justify-content: space-evenly;
+    }
+    
+    .trending-img img{
+        border-radius: 10px;
+        width: 96%;
+        height: 101%;
+    }
+    .trending_container h3{
+        margin-left: 1px;
+    }
+    
 }
