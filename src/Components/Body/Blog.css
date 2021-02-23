@@ -51,4 +51,19 @@
     color: #80aaf0;
 }
 
+@media only screen and (max-width:600px) {
+   .blog_container {
+        width: 310%;
+        margin-left: -1%;
+    }
+    .blog_viewall button {
+        padding: 0 20px;
+        border-radius: 10px;
+        background-color: white;
+        color: orange;
+        border: 1px solid orange;
+        margin-left: 183px;
+    }
+}
+
 

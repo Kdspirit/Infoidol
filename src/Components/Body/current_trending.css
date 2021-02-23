@@ -35,7 +35,7 @@
 .content h3{
     position: absolute;
     bottom: 42px;
-    left: -37px;
+    left: -17px;
     color:white;
     width: 100%;
     padding: 20px;
@@ -57,8 +57,12 @@
 }
 @media only screen and (max-width:600px){
     .CT_container{
-        margin-left: 97vw;
-        
+        margin-left: -1vw;
+        width: 278vw; 
+    }
+    .viewall{
+        display: flex;
+        margin-left: 100vw;
     }
     .CT_container h3{
         color: #727272;
@@ -72,7 +76,7 @@
         background-color: white;
         border: 1px solid orange;
         margin-left: 191px;
-    }
+    } 
     .content h3{
         position: absolute;
         bottom: 42px;

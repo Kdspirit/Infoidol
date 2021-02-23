@@ -9,6 +9,7 @@
 }
 .Audio_elems{
     display: flex;
+    
 }
 .Audio_Img img{
     width: 54px;
@@ -49,9 +50,23 @@
     font-size: 13px;
 }
 
-@media only screen and(max-width: 600px){
+@media only screen and (max-width: 600px){
     .Audio_container{
-        border:solid red;
-        margin-left: 2%
+        margin-left: 0%;
+        width:331vw;
     }
+    .Audio_container .Audio_viewall button{
+        margin-left: 220px;
+        width: 87px;
+        border-radius: 10px;
+        background-color: white;
+        color:orange;
+        border: 1px solid orange;
+    }
+    .description{
+        display:flex;
+        width:66vw;
+    }
+    
+
 }
