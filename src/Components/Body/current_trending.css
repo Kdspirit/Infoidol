@@ -58,6 +58,7 @@
 @media only screen and (max-width:600px){
     .CT_container{
         margin-left: -1vw;
+        margin-top: 2phgit;
         width: 278vw; 
     }
     .viewall{
@@ -66,7 +67,6 @@
     }
     .CT_container h3{
         color: #727272;
-        /* margin-top: 2vh; */
         margin-left: -397px;
     }
     .CT_container button{

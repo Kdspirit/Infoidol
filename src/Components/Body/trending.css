@@ -18,6 +18,8 @@
 }
 .trending_container h3{
     margin-left: 22px;
+    color: #727272;
+
 }
 @media only screen and (max-width:600px){
     .trending_container{
@@ -41,6 +43,8 @@
     }
     .trending_container h3{
         margin-left: 2px;
+        color: #727272;
+
     }
     
 }

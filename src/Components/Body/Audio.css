@@ -54,8 +54,10 @@
     .Audio_container{
         margin-left: 0%;
         width:331vw;
+        border-top:1px solid  #bdb6b6;
+        border-bottom:1px solid  #bdb6b6;
     }
-    .Audio_container .Audio_viewall button{
+    .Audio_viewall button{
         margin-left: 220px;
         width: 87px;
         border-radius: 10px;
@@ -67,6 +69,9 @@
         display:flex;
         width:66vw;
     }
-    
+    .Audio_viewall h3{
+        margin-left:4px ;
+        color:#727272; 
+    }
 
 }
